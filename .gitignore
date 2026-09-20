@@ -1,0 +1,33 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Local SQLite databases and persistent data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Logs
+logs/
+*.log
+
+# Audio artifacts
+*.mp3
+*.ogg
+*.wav
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+scratch/
+

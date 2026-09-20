@@ -1,0 +1,26 @@
+# AI Mitra Core Dependencies (Explicitly Pinned for Python 3.13 Compatibility)
+
+# Gemini AI Client
+google-genai==1.73.1
+
+# Telegram Bot Interface
+python-telegram-bot==22.8
+
+# Background Job Scheduling
+apscheduler==3.11.0
+
+# News Ingestion and HTML Parsing
+feedparser==6.0.11
+beautifulsoup4==4.13.3
+requests==2.32.5
+
+# Data Models & Settings Management
+pydantic==2.12.2
+python-dotenv==1.1.1
+
+# Text-to-Speech Audio Voice Notes
+gTTS==2.5.4
+
+# Automated Test Suite
+pytest==8.3.4
+
